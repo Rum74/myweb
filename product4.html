@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Rum Store</title>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=1011038512745338&autoLogAppEvents=1"
+        nonce="kJHOP4CE"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=1011038512745338&autoLogAppEvents=1"
+        nonce="tIhwUtsp"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show')
+            })
+        })
+    </script>
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="grid wide">
+            <div class="content__header">
+                <label class="logo__header">RUM STORE</label>
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="">Sản phẩm</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+
+                <div class="card__head">
+                    <div class="card" id="popup_card">
+                        <a href=""><i class="fas fa-phone"></i> 0966.923.146</a>
+                        <button><i class="fas fa-shopping-cart"></i> Giỏ hàng</button>
+                    </div>
+                </div>
+
+                <label id="icon">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <nav>
+        <div class="grid wide">
+            <div style="margin-top: 25px;" class="row">
+                <div class="col l-6 m-5 c-12">
+                    <div class="image">
+                        <a href=""><img src="image/4.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; flex-direction: column;" class="col l-6 m-7 c12">
+                    <div class="info-right-content">
+                        <div class="info-right">
+                            <h1>۶ Other ۴</h1>
+                            <h3>Quần Đẹp</h3>
+                        </div>
+                        <div class="price">
+                            <div class="sale">
+                                <span>490.000<sup>đ</sup></span>
+                                <p>Sale off <b>-4%</b></p>
+                            </div>
+                            <span>350.000<sup>đ</sup></span>
+                        </div>
+                    </div>
+                    <div class="container-size-content">
+                        <div class="size-content">
+                            <div class="title-size">
+                                <h1>SIZE:</h1>
+                            </div>
+                            <label class="container">
+                                <div class="size-item">
+                                    <input type="radio" name="same">
+                                    <span>36</span>
+                                </div>
+                                <div class="size-item">
+                                    <input type="radio" name="same">
+                                    <span>37</span>
+                                </div>
+                                <div class="size-item">
+                                    <input type="radio" name="same">
+                                    <span>38</span>
+                                </div>
+                                <div class="size-item">
+                                    <input type="radio" name="same">
+                                    <span>39</span>
+                                </div>
+                                <div class="size-item">
+                                    <input type="radio" name="same">
+                                    <span>40</span>
+                                </div>
+                                <div class="size-item">
+                                    <input type="radio" name="same">
+                                    <span>41</span>
+                                </div>
+                                <div class="size-item">
+                                    <input type="radio" name="same">
+                                    <span>42</span>
+                                </div>
+                                <div class="size-item">
+                                    <input type="radio" name="same">
+                                    <span>43</span>
+                                </div>
+                            </label>
+                            <div class="size-note">
+                                <p>*Các size có thể chưa được cập nhật kịp thời. Liên hệ để biết chính xác số lượng size
+                                    nhá!</p>
+                            </div>
+                        </div>
+                        <div class="btn-content">
+                            <button class="btn">Buy Now</button>
+                        </div>
+                        <div class="fb-save" data-uri="https://www.instagram.com/facebook/" data-size="large"></div>
+                    </div>
+                    <div class="overlay"></div>
+                    <section class="form">
+                        <div class="grid wide">
+                            <div class="add-form-content">
+                                <div class="add-form">
+                                    <div class="add-form-top">
+                                        <ul>
+                                            <li>
+                                                <h2>RUM STORE</h2>
+                                            </li>
+                                            <li><i class="fas fa-times"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="add-form-main">
+                                        <p><b>Chụp màn hình</b> hoặc <b>lưu mã sản phẩm</b> mà bạn yêu thích và gửi về
+                                            trang
+                                            <b>Facebook</b> hoặc nhóm <b>Zalo</b> của Rum Store.
+                                        </p>
+                                        <p>Hoặc có thể <b>comment ở phía dưới</b> để kịp thời nhắn tin tư vấn.</p>
+                                        <p>Cảm ơn Quý khách đã thông cảm cho sự bất tiện này! <br>
+                                            Đội ngũ chúng tôi sẽ luôn nỗ lực nâng cấp và phát triển
+                                            hệ thống để đem lại trải nghiệm tốt nhất cho Khách hàng.</p>
+                                        <p>Ghé thăm website thường xuyên để theo dõi sự trưởng thành từng ngày của RUM
+                                            STORE nhé!</p>
+                                        <p>Cảm ơn Quý khách! <br>
+                                            Chúc Quý khách một ngày vui vẻ! <i class="fas fa-heart"></i></p>
+                                    </div>
+                                    <div class="add-form-bottom">
+                                        <ul>
+                                            <a href="https://www.facebook.com/huynhvanphong74"><img
+                                                    src="https://img.icons8.com/ios/50/000000/facebook--v2.png" /></a>
+                                            <li>Darkness begins to shine</li>
+                                            <a href=""><img src="https://img.icons8.com/ios/50/000000/zalo.png" /></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="overlay"></div>
+    <div class="container-size-content-one">
+        <div class="size-content">
+            <div class="title-size">
+                <h1>SIZE:</h1>
+            </div>
+            <label class="container">
+                <div class="size-item">
+                    <input type="radio" name="same">
+                    <span>36</span>
+                </div>
+                <div class="size-item">
+                    <input type="radio" name="same">
+                    <span>37</span>
+                </div>
+                <div class="size-item">
+                    <input type="radio" name="same">
+                    <span>38</span>
+                </div>
+                <div class="size-item">
+                    <input type="radio" name="same">
+                    <span>39</span>
+                </div>
+                <div class="size-item">
+                    <input type="radio" name="same">
+                    <span>40</span>
+                </div>
+                <div class="size-item">
+                    <input type="radio" name="same">
+                    <span>41</span>
+                </div>
+                <div class="size-item">
+                    <input type="radio" name="same">
+                    <span>42</span>
+                </div>
+                <div class="size-item">
+                    <input type="radio" name="same">
+                    <span>43</span>
+                </div>
+            </label>
+            <div class="size-note">
+                <p>*Các size có thể chưa được cập nhật kịp thời. Liên hệ để biết chính xác số lượng size
+                    nhá!</p>
+            </div>
+        </div>
+        <div class="btn-content-one">
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="fb-save" data-uri="https://www.instagram.com/facebook/" data-size="large"></div>
+    </div>
+
+    <section>
+        <div style="width: 100%; height: 1px; background-color: black; margin-top: 20px; "></div>
+    </section>
+
+    <section>
+        <div class="grid wide">
+            <div style="margin-top: 20px;" class="row">
+                <div class="col l-6 title1">
+                    <h1>SẢN PHẨM LIÊN QUAN</h1>
+                </div>
+                <div class="col l-6 title1">
+                    <h1>ABOUT</h1>
+                    <div class="para">
+                        <p>RUM STORE mang trong mình sứ mệnh đưa "sản phẩm Việt Nam - vươn tầm quốc tế".</p>
+                        <p>Là thương hiệu mới được ra đời, dưới sự dẫn dắt của <a
+                                href="https://www.facebook.com/huynhvanphong74" style="color: #ff0040;">Rum Store</a> ,
+                            chúng tôi luôn không ngừng học hỏi và cố gắng để hiện thực hoá mọi ước mơ. <br>
+                            Hãy dõi theo chúng tôi để thấy được sự trưởng thành từng ngày của Rum Store nhé!</p>
+                        <p><b>Cảm ơn quý khách!</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="fb-comments" data-href="https://www.facebook.com/huynhvanphong74" data-width="100%" data-numposts="5">
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="grid wide">
+            <div class="content-footer">
+                <div class="logo-title">
+                    <!-- <img src="" alt=""> -->
+                    <h2><a href="">RUM STORE</a></h2>
+                    <p>DARKNESS BEGINS TO SHINE</p>
+                </div>
+                <div class="footer-contact">
+                    <ul>
+                        <li><a href="" target="_blank">Zalo</a></li>
+                        <li><a href="https://www.facebook.com/huynhvanphong74" target="_blank">Facebook</a></li>
+                        <li><a href="tel:+84966923416" target="_blank">Tel</a></li>
+                        <li><a href="mailto:huynhvanphong7402@gmail.com" target="_blank">Gmail</a></li>
+                    </ul>
+                </div>
+                <div class="content-footer-click">
+                    <div class="footer__click">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <strong>Mở Bản đồ</strong>
+                    </div>
+                </div>
+                <div class="mapouter">
+                    <div class="close-map">
+                        <p style="color: white; padding: 5px 0; cursor: var(--mouse-click);">Close Map</p>
+                    </div>
+                    <div class="gmap_canvas">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d375.473410980697!2d108.23751052571613!3d15.832912564156658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142071f74c13185%3A0x573f51b29954f406!2zU8OibiBCw7NuZyBDaHV54buBbg!5e1!3m2!1svi!2s!4v1639534550108!5m2!1svi!2s"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <a href="https://fmovies2.org"></a>
+                    </div>
+                </div>
+
+                <div class="footer-info">
+                    <p>29.11.21</p>
+                    <p>© Copyright belongs to RUM STORE</p>
+                    <p>Designed and programmed by <a href="https://www.facebook.com/huynhvanphong74/">Huỳnh Văn
+                            Phòng</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
